@@ -4,6 +4,10 @@
 
  display: grid;
  grid-template-rows: auto 1fr auto;
+
+max-width: 1000px;
+margin:0 auto;
+
 }
 
 .header {
