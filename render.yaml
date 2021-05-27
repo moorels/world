@@ -3,10 +3,6 @@ services:
     name: next world
     env: node
     plan: starter
-    buildCommand: yarn build
+    buildCommand: yarn; yarn build
     startCommand: yarn start
-    envVars:
-      - key: NODE_ENV
-        value: production
-      - key: SESSION_SECRET_KEY
-        generateValue: true
+    
